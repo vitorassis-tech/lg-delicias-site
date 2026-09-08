@@ -1,0 +1,10 @@
+name = "lg-delicias-site"
+compatibility_date = "2026-09-08"
+pages_build_output_dir = "."
+
+[[d1_databases]]
+binding = "DB"
+database_name = "lg-delicias-db"
+database_id = "SUBSTITUA_PELO_ID_DO_BANCO"
+
+# Configure ADMIN_KEY como segredo no painel da Cloudflare. Nunca salve a chave aqui.
