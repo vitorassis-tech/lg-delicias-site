@@ -1,6 +1,8 @@
-.card{min-height:355px;padding:0;overflow:hidden;background:#fff}
-.product-photo{width:100%;aspect-ratio:1;background-image:url('/assets/cardapio-produtos.png');background-size:700% 500%;background-position:calc(var(--photo-x)*100%/6) calc(var(--photo-y)*100%/4);background-repeat:no-repeat}
-.card-body{padding:19px;display:flex;flex:1;flex-direction:column}
+.card{min-height:300px;padding:0;overflow:hidden;background:#fff}
+.product-photo{width:100%;height:190px;background-image:url('/assets/cardapio-produtos.png');background-size:700% 500%;background-position:calc(var(--photo-x)*100%/6) calc(var(--photo-y)*100%/4);background-repeat:no-repeat;background-color:#fff}
+.product-photo-file{display:flex;align-items:center;justify-content:center;background-image:none;overflow:hidden}
+.product-photo-file img{width:100%;height:100%;object-fit:contain;display:block}
+.card-body{padding:15px;display:flex;flex:1;flex-direction:column}
 footer{display:block;padding:28px max(22px,calc((100vw - 1200px)/2))}
 .footer-main{display:flex;align-items:center;justify-content:space-between;gap:28px}
 .footer-logo{display:flex;align-items:center;gap:12px;text-decoration:none}
@@ -8,7 +10,10 @@ footer{display:block;padding:28px max(22px,calc((100vw - 1200px)/2))}
 .footer-logo span{display:flex;flex-direction:column}
 .footer-logo strong{font:700 1.25rem "Playfair Display",serif}
 .footer-logo small{color:#dce7d6}
-.footer-links{display:flex;flex-direction:row;flex-wrap:wrap;gap:22px}
+.footer-links{display:flex;flex-direction:row;flex-wrap:wrap;gap:10px}
+.social-link{width:42px;height:42px;border:1px solid #ffffff38;border-radius:50%;display:grid;place-items:center;transition:.2s}
+.social-link:hover{background:#fff;color:var(--dark);transform:translateY(-2px);text-decoration:none!important}
+.social-link svg{width:21px;height:21px;fill:currentColor}
 .footer-links a:hover{text-decoration:underline}
 .copyright{margin:22px 0 0;padding-top:18px;border-top:1px solid #ffffff28;color:#dce7d6;text-align:center;font-size:.88rem}
-@media(max-width:540px){.card{min-height:340px}.footer-main{align-items:flex-start;flex-direction:column}.footer-links{gap:16px}}
+@media(max-width:540px){.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.card{min-height:255px;border-radius:15px}.product-photo{height:125px}.card-body{padding:11px}.card h3{font-size:.92rem;line-height:1.2}.category{margin:5px 0;font-size:.72rem}.status{font-size:.61rem}.price{font-size:1.2rem;margin:9px 0}.add{padding:9px 5px;font-size:.78rem}.footer-main{align-items:flex-start;flex-direction:column}.footer-links{gap:10px}}
