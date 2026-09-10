@@ -1,0 +1,14 @@
+.card{min-height:355px;padding:0;overflow:hidden;background:#fff}
+.product-photo{width:100%;aspect-ratio:1;background-image:url('/assets/cardapio-produtos.png');background-size:700% 500%;background-position:calc(var(--photo-x)*100%/6) calc(var(--photo-y)*100%/4);background-repeat:no-repeat}
+.card-body{padding:19px;display:flex;flex:1;flex-direction:column}
+footer{display:block;padding:28px max(22px,calc((100vw - 1200px)/2))}
+.footer-main{display:flex;align-items:center;justify-content:space-between;gap:28px}
+.footer-logo{display:flex;align-items:center;gap:12px;text-decoration:none}
+.footer-logo img{width:52px;height:52px;border-radius:50%;object-fit:cover}
+.footer-logo span{display:flex;flex-direction:column}
+.footer-logo strong{font:700 1.25rem "Playfair Display",serif}
+.footer-logo small{color:#dce7d6}
+.footer-links{display:flex;flex-direction:row;flex-wrap:wrap;gap:22px}
+.footer-links a:hover{text-decoration:underline}
+.copyright{margin:22px 0 0;padding-top:18px;border-top:1px solid #ffffff28;color:#dce7d6;text-align:center;font-size:.88rem}
+@media(max-width:540px){.card{min-height:340px}.footer-main{align-items:flex-start;flex-direction:column}.footer-links{gap:16px}}
