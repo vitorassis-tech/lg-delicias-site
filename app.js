@@ -7,7 +7,7 @@ const catalog=[
 ];
 const imageIndex=new Map(catalog.map((p,i)=>[p[0].toLocaleLowerCase('pt-BR'),i]));
 const specialImages={
-'guaracamp 285 ml':'/assets/guaracamp-v2.webp','coca-cola 200 ml':'/assets/coca-cola.webp','fanta laranja 200 ml':'/assets/fanta-laranja.webp','fanta guaraná 200 ml':'/assets/fanta-guarana.webp','energético 300 ml':'/assets/energetico-baly-v2.webp','suco de manga 300 ml':'/assets/suco-manga.webp','suco de goiaba 300 ml':'/assets/suco-goiaba.webp','torta salgada pequena':'/assets/torta-salgada.webp','torta salgada grande':'/assets/torta-salgada.webp','queijo com presunto':'/assets/queijo-presunto-frito.webp'
+'guaracamp 285 ml':'/assets/guaracamp-v2.webp','coca-cola 200 ml':'/assets/coca-cola.webp','fanta laranja 200 ml':'/assets/fanta-laranja.webp','fanta guaraná 200 ml':'/assets/fanta-guarana.webp','energético 300 ml':'/assets/energetico-baly-v2.webp','suco de manga 300 ml':'/assets/suco-manga-v2.webp','suco de goiaba 300 ml':'/assets/suco-goiaba-v2.webp','torta salgada pequena':'/assets/torta-salgada.webp','torta salgada grande':'/assets/torta-salgada.webp','queijo com presunto':'/assets/queijo-presunto-frito.webp'
 };
 const fallback=catalog.map((p,i)=>({id:i+1,name:p[0],category:p[1],price:p[2],available:1}));
 const $=s=>document.querySelector(s),money=v=>Number(v).toLocaleString('pt-BR',{style:'currency',currency:'BRL'});let products=[],cart=new Map(),category='Todos';
