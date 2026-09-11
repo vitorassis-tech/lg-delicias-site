@@ -1,7 +1,9 @@
-.card{min-height:300px;padding:0;overflow:hidden;background:#fff}
-.product-photo{width:100%;height:190px;background-image:url('/assets/cardapio-produtos.png');background-size:700% 500%;background-position:calc(var(--photo-x)*100%/6) calc(var(--photo-y)*100%/4);background-repeat:no-repeat;background-color:#fff}
-.product-photo-file{display:flex;align-items:center;justify-content:center;background-image:none;overflow:hidden}
-.product-photo-file img{width:100%;height:100%;object-fit:contain;display:block}
+.card{min-height:300px;padding:0;overflow:hidden;background:#fff;box-shadow:0 7px 24px #35280f0b;transition:transform .2s,box-shadow .2s}
+.card:hover{transform:translateY(-3px);box-shadow:0 13px 32px #35280f17}
+.product-photo{width:100%;height:190px;background:#fff;border-bottom:1px solid #f1e8da;isolation:isolate}
+.product-photo-file{display:flex;align-items:center;justify-content:center;overflow:hidden}
+.product-photo-file img{width:100%;height:100%;object-fit:cover;display:block}
+.product-photo-file.contain img{object-fit:contain;padding:8px;background:#fff}
 .card-body{padding:15px;display:flex;flex:1;flex-direction:column}
 footer{display:block;padding:28px max(22px,calc((100vw - 1200px)/2))}
 .footer-main{display:flex;align-items:center;justify-content:space-between;gap:28px}
@@ -16,4 +18,4 @@ footer{display:block;padding:28px max(22px,calc((100vw - 1200px)/2))}
 .social-link svg{width:21px;height:21px;fill:currentColor}
 .footer-links a:hover{text-decoration:underline}
 .copyright{margin:22px 0 0;padding-top:18px;border-top:1px solid #ffffff28;color:#dce7d6;text-align:center;font-size:.88rem}
-@media(max-width:540px){.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.card{min-height:255px;border-radius:15px}.product-photo{height:125px}.card-body{padding:11px}.card h3{font-size:.92rem;line-height:1.2}.category{margin:5px 0;font-size:.72rem}.status{font-size:.61rem}.price{font-size:1.2rem;margin:9px 0}.add{padding:9px 5px;font-size:.78rem}.footer-main{align-items:flex-start;flex-direction:column}.footer-links{gap:10px}}
+@media(max-width:540px){.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.card{min-height:255px;border-radius:15px}.card:hover{transform:none}.product-photo{height:125px}.product-photo-file.contain img{padding:5px}.card-body{padding:11px}.card h3{font-size:.92rem;line-height:1.2}.category{margin:5px 0;font-size:.72rem}.status{font-size:.61rem}.price{font-size:1.2rem;margin:9px 0}.add{padding:9px 5px;font-size:.78rem}.footer-main{align-items:flex-start;flex-direction:column}.footer-links{gap:10px}}
