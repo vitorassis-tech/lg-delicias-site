@@ -1,4 +1,4 @@
-document.head.insertAdjacentHTML('beforeend','<link rel="stylesheet" href="/catalog.css?v=15"><link rel="stylesheet" href="/orders.css?v=15">');
+document.head.insertAdjacentHTML('beforeend','<link rel="stylesheet" href="/catalog.css?v=16"><link rel="stylesheet" href="/orders.css?v=16">');
 const catalog=[
 ['Guaracamp 285 ml','Bebidas',2],['Coca-Cola 200 ml','Bebidas',3.5],['Fanta Laranja 200 ml','Bebidas',3.5],['Fanta Guaraná 200 ml','Bebidas',3.5],['Energético 300 ml','Bebidas',8],['Suco de Manga 300 ml','Bebidas',6],['Suco de Goiaba 300 ml','Bebidas',6],
 ['Torta Salgada Pequena','Tortas salgadas',7],['Torta Salgada Grande','Tortas salgadas',13],['Empadão de Frango','Tortas salgadas',7],['Empadão de Camarão','Tortas salgadas',8],['Queijo com Presunto','Fritos',6],['Quibe','Fritos',6],['Risolho','Fritos',6],['Coxinha','Fritos',6],
