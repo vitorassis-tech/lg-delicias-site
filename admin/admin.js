@@ -1,4 +1,4 @@
-document.head.insertAdjacentHTML('beforeend','<link rel="stylesheet" href="/orders.css">');
+document.head.insertAdjacentHTML('beforeend','<link rel="stylesheet" href="/orders.css?v=11">');
 const $=s=>document.querySelector(s),money=v=>Number(v).toLocaleString('pt-BR',{style:'currency',currency:'BRL'});
 let key=sessionStorage.getItem('lg-key')||'',orders=[],historyOrders=[],refreshTimer;
 const statusLabels={new:'Novo',preparing:'Em preparo',ready:'Pronto',completed:'Finalizado',cancelled:'Cancelado'};
