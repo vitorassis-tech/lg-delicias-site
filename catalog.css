@@ -5,6 +5,7 @@
 .product-photo-file img{width:auto;height:auto;max-width:100%;max-height:100%;object-fit:contain;object-position:center;display:block;background:transparent;border-radius:12px;mix-blend-mode:multiply;filter:saturate(1.03) contrast(1.02)}
 .product-photo-file.contain img{object-fit:contain}
 .card-body{padding:15px;display:flex;flex:1;flex-direction:column}
+.stock-warning{display:block;margin:7px 0 0;color:#a45d00;font-weight:700}
 footer{display:block;padding:28px max(22px,calc((100vw - 1200px)/2))}
 .footer-main{display:flex;align-items:center;justify-content:space-between;gap:28px}
 .footer-logo{display:flex;align-items:center;gap:12px;text-decoration:none}
