@@ -1,5 +1,16 @@
 # L&G Delícias
 
+## Cardápio profissional v23
+
+- Descrições curtas e padronizadas em todos os produtos.
+- Seção “Destaques da L&G” com até seis itens.
+- Seleção e ordenação dos destaques na área administrativa.
+- Categorias na ordem: Tortas Salgadas, Assados, Fritos, Sobremesas e Bebidas.
+- Estoque, indisponibilidade e bloqueio de produtos esgotados preservados.
+- Layout responsivo com descrição limitada a duas linhas.
+
+As colunas `description`, `featured` e `featured_order` são criadas automaticamente no banco D1 na primeira abertura do cardápio. Consulte `DADOS-PENDENTES-CARDAPIO.md` para os dados que ainda podem enriquecer as descrições.
+
 Site oficial para consulta do cardápio, pedidos, estoque e controle financeiro. O projeto usa Cloudflare Pages Functions e Cloudflare D1.
 
 ## Recursos
