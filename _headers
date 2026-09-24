@@ -1,0 +1,7 @@
+/*
+  Referrer-Policy: no-referrer
+  X-Content-Type-Options: nosniff
+
+/admin/*
+  X-Robots-Tag: noindex, nofollow
+

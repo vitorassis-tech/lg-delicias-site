@@ -141,3 +141,11 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Configurações e dados locais do Cloudflare
+.wrangler/
+.dev.vars
+.dev.vars.*
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal

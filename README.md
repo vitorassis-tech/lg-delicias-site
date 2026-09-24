@@ -1,5 +1,11 @@
 # L&G Delícias
 
+## Acréscimos ao pedido v24
+
+O cliente pode acrescentar itens mantendo o mesmo número do pedido, com acesso privado, revisão de valores e proteção contra duplicidade. Pedidos novos são atualizados diretamente; pedidos confirmados exigem aprovação na Central. Estoque, histórico e financeiro são atualizados na mesma transação. Pagamentos anteriores permanecem registrados e somente a diferença fica pendente.
+
+Consulte **GUIA-ACRESCIMOS-V24.md** para publicação, configuração, regras e testes. Não recrie o banco existente: a migração é automática. O pacote também contém as melhorias do cardápio v23 abaixo.
+
 ## Cardápio profissional v23
 
 - Descrições curtas e padronizadas em todos os produtos.
@@ -7,7 +13,7 @@
 - Seleção e ordenação dos destaques na área administrativa.
 - Categorias na ordem: Tortas Salgadas, Assados, Fritos, Sobremesas e Bebidas.
 - Estoque, indisponibilidade e bloqueio de produtos esgotados preservados.
-- Layout responsivo com descrição limitada a duas linhas.
+- Layout responsivo com descrições curtas e leitura completa também no celular.
 
 As colunas `description`, `featured` e `featured_order` são criadas automaticamente no banco D1 na primeira abertura do cardápio. Consulte `DADOS-PENDENTES-CARDAPIO.md` para os dados que ainda podem enriquecer as descrições.
 
